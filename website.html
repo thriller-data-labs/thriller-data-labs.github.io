@@ -1,0 +1,35 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+<link rel="stylesheet" type="text/css" href="website_style.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+function scrollto(div)
+{
+ $('html,body').animate(
+ {
+  scrollTop: $("#"+div).offset().top
+ },'slow');
+}
+</script>
+</head>
+<body>
+
+<div id="header">
+ <p>Thriller</p>
+</div>
+
+<div id="waitlist">
+    <button id="button" type="button" onclick="window.location.href='https://forms.gle/s7mdtoJxiePtCrfE8';">Join the waitlist</button>
+</div>
+
+<div id="footer">
+
+</div>
+
+</body>
+<footer id="footer">
+    <p>Copyright 2021. Thriller Data Labs, Inc. All rights reserved.</p>
+</footer>
+</html>

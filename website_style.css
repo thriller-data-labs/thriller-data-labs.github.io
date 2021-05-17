@@ -1,0 +1,48 @@
+body
+{
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ max-width:100%;
+ height: auto;
+ font-family: "Courier New";
+ background-image: url("../thriller-splash/thriller-data.jpeg");
+ background-repeat: no-repeat;
+ background-color: black
+}
+#header 
+{
+ height: 34em;
+ position: relative 
+}
+#header p 
+{
+ margin: 0;
+ font-size: 75px;
+ color: white;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ margin-right: -50%;
+ transform: translate(-50%, -50%) 
+}
+#button 
+{
+ height: 50px;
+ padding-left: 20px;
+ padding-right: 20px;
+ color: black;
+ font-size: 20px;
+ border-radius: 25px;
+ font-family: "Courier New";
+ border-color: white;
+ background-color: white;
+}
+#footer
+{
+ font-size: 12px;
+ color: white;
+ position: absolute;
+ width: 100%;
+ bottom: 20px;
+}
