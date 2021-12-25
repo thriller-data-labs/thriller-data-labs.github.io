@@ -1,15 +1,39 @@
+@font-face {
+    font-family: LibreFranklin;
+    src: url("../thriller-data-labs.github.io/LibreFranklin-Medium.ttf");
+  }
+  
 body
 {
- margin:0px auto;
+ /* margin:0px auto;
  padding:0px;
  text-align:center;
  max-width:100%;
- height: auto;
- font-family: "Courier New";
+ height: auto;*/
+ font-family: "LibreFranklin"; 
+ position: relative;
+ left: 50%;
+ right: 50%;
+ margin-left: -50vw;
+ margin-right: -50vw;
+ max-width: 100vw;
+ width: 100vw;
  background-image: url("../thriller-data-labs.github.io/weatherman-landing.jpg");
  background-repeat: no-repeat;
  background-color: black
 }
+
+#full-screen-width 
+{
+ position: relative;
+ left: 50%;
+ right: 50%;
+ margin-left: -50vw;
+ margin-right: -50vw;
+ max-width: 100vw;
+ width: 100vw;
+}
+
 #header 
 {
  height: 34em;
@@ -26,17 +50,43 @@ body
  margin-right: -50%;
  transform: translate(-50%, -50%) 
 }
+#main 
+{
+ margin: 0;
+ font-size: 75px;
+ color: white;
+ position: absolute;
+ top: 75%;
+ left: 50%;
+ margin-right: -50%;
+ transform: translate(-50%, -50%) 
+}
+
 #button 
 {
  height: 50px;
  padding-left: 20px;
  padding-right: 20px;
- color: black;
+ color: #FFFFFF;
  font-size: 20px;
  border-radius: 25px;
- font-family: "Courier New";
- border-color: white;
- background-color: white;
+ font-family: "LibreFranklin";
+ letter-spacing: 2px;
+ outline: none;
+ display: block;
+ background-image: radial-gradient(#F48AB5, #F774A9, #F8629F, #FA5296);
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#button p
+{
+ padding: 12px 0;
+}
+
+#button:hover
+{
+ cursor: pointer;
+ background-image: radial-gradient(#f169a0, #f55e9b, #f3458a, #f52d7d);
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #footer
 {
