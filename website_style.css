@@ -18,9 +18,9 @@ body
  margin-right: -50vw;
  max-width: 100vw;
  width: 100vw;
- background-image: url("../thriller-data-labs.github.io/weatherman-landing.jpg");
+ /* background-image: url("../thriller-data-labs.github.io/weatherman-landing.jpg"); */
  background-repeat: no-repeat;
- background-color: black
+ background-image: radial-gradient(#92DBFE, #92DBFE, #92DBFE, #92DBFE);
 }
 
 #full-screen-width 
@@ -91,6 +91,8 @@ body
 #footer
 {
  font-size: 12px;
+ display: flex;
+ justify-content: center;
  color: white;
  position: absolute;
  width: 100%;
